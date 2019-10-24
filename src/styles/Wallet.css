@@ -1,0 +1,32 @@
+div.wallet,
+div.wallet-info,
+div.currency-info,
+div.wallet-sum{
+  display: flex;
+}
+
+.first-page div.wallet,
+div.wallet-sum{
+  flex-direction: column;
+}
+div.wallet{
+  background-color: rgba(255,255,255,0.1);
+  padding:20px;
+  border-radius: 5px;
+}
+
+div.wallet-info,
+div.currency-info{
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+div.wallet div.wallet-info{
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  margin-bottom:10px;
+  padding-bottom:10px;
+}
+
+div.wallet-sum{
+  align-items: flex-end;
+}

@@ -1,0 +1,32 @@
+body {
+    margin:0;
+    padding:0;
+    color:white;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+#root {
+    background:#424451;
+    display: flex;
+    flex-direction: column;
+    min-height:100vh;
+    padding:20px 30px;
+    box-sizing: border-box;
+}
+p,span{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-size: 20px;
+}
+
+span{
+    font-size: 16px;
+    color:rgba(255, 255, 255, 0.5);
+}
+
+.active{
+    background-color:rgba(255, 255, 255, 0.5);
+}

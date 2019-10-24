@@ -1,0 +1,12 @@
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header div.icon-img{
+  height: 40px;
+}
+header div.icon-img img{
+  height: 100%;
+}

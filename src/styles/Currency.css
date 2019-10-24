@@ -1,0 +1,20 @@
+.currency-wallet,
+.currency-wallet .name{
+  display: flex;
+}
+.currency-wallet{
+  flex-direction: row;
+}
+
+.currency-wallet .icon{
+  font-size:40px;
+  align-self: center;
+}
+
+.currency-wallet .name{
+  flex-direction: column;
+  margin-left: 10px;
+}
+.currency-wallet .name p{
+  text-transform: uppercase; 
+}
